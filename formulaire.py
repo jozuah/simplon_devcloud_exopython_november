@@ -37,3 +37,5 @@ new_list = sorted(my_list, key = lambda formulaire :formulaire.naissance)
 print("\nNouveau Formulaire : \n")
 for i in range(len(new_list)): 
     print(f"{new_list[i].nom}  {new_list[i].prenom}  {new_list[i].naissance}")
+
+print("Please review my code")

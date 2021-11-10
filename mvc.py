@@ -59,11 +59,11 @@ class controller:
 #vue.hello()
 #controller.hello()
 
-#model = model()
-#my_list = model.getSentences()
-#controller.writeInFile(my_list)
-#vue.readInFile()
-
-my_string = "blabla"
 model = model()
-print(model._upperCase(my_string))
+my_list = model.getSentences()
+controller.writeInFile(my_list)
+vue.readInFile()
+
+#y_string = "blabla"
+#model = model()
+#print(model._upperCase(my_string))
